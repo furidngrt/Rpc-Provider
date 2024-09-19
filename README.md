@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RPCProvider
+
+## Overview
+
+**RPCProvider** is a tool that enables users to seamlessly add Ethereum Virtual Machine (EVM) compatible blockchain networks to their MetaMask wallet. With RPCProvider, users can easily configure and connect various EVM-based networks through a user-friendly interface.
+
+## Features
+
+- **Add EVM Networks to MetaMask**: Quickly add supported EVM networks to your MetaMask wallet.
+- **Search and Filter Networks**: Easily find networks using the search functionality.
+- **Responsive Design**: Ensures a smooth experience across different devices with a responsive UI.
+- **Status Notifications**: Provides feedback on successful operations or errors.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **MetaMask**: Ensure you have MetaMask installed in your browser. [Download MetaMask](https://metamask.io/download.html).
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```
+   git clone https://github.com/yourusername/rpcprovider.git
+   cd rpcprovider
+   ```
+
+### Adding a New RPC Network
+
+1. Update Network Data
+
+- Locate the Network Data File: This file is usually found at /public/networks.json or a similar path depending on your project structure.
+
+- Add Network Details: Append the details of the new RPC network in JSON format. Here’s a sample format:
+  
+```
+{
+  "newNetworkKey": {
+    "chainId": "0x1234",
+    "chainName": "New Network",
+    "rpcUrls": ["https://new-network-rpc-url"],
+    "nativeCurrency": {
+      "name": "NewCoin",
+      "symbol": "NEW",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://new-network-explorer"]
+  }
+}
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Replace "newNetworkKey" with a unique key for the new network and fill in the appropriate details.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. Add New Network to the Application
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Update the loadNetworks Function: Ensure the loadNetworks function in your component correctly fetches and processes the updated networks.json.
 
-## Learn More
+- Update UI as Needed: If there are new properties or changes in network details, make sure the UI components display them correctly.
 
-To learn more about Next.js, take a look at the following resources:
+3. Test the New Network
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Run the Application: Start or restart the application to ensure the new network appears and functions as expected.
+- Add Network to MetaMask: Test adding the new network to MetaMask to verify that the configuration is correct.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
