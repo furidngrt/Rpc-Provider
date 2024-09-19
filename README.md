@@ -30,7 +30,7 @@
 
 1. Update Network Data
 
-- Locate the Network Data File: This file is usually found at /public/networks.json or a similar path depending on your project structure.
+- Locate the Network Data File: This file is usually found at /public/data/networks.json or a similar path depending on your project structure.
 
 - Add Network Details: Append the details of the new RPC network in JSON format. Here’s a sample format:
   
