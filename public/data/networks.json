@@ -1,0 +1,583 @@
+{
+  "ethereum": {
+    "chainId": "0x1",
+    "chainName": "Ethereum Mainnet",
+    "rpcUrls": [
+      "https://mainnet.eth.arbitrum.io/rpc",
+      "https://rpc.ankr.com/eth",
+      "https://cloudflare-eth.com",
+      "https://ethereum.publicnode.com"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://etherscan.io"]
+  },
+  "arbitrum": {
+    "chainId": "0xA4B1",
+    "chainName": "Arbitrum One",
+    "rpcUrls": [
+      "https://arb1.arbitrum.io/rpc",
+      "https://arbitrum-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://arbiscan.io"]
+  },
+  "optimism": {
+    "chainId": "0xA",
+    "chainName": "Optimism",
+    "rpcUrls": [
+      "https://mainnet.optimism.io",
+      "https://optimism-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://optimistic.etherscan.io"]
+  },
+  "binance": {
+    "chainId": "0x38",
+    "chainName": "Binance Smart Chain",
+    "rpcUrls": [
+      "https://bsc-dataseed1.binance.org",
+      "https://bsc-dataseed2.binance.org",
+      "https://bsc-dataseed3.binance.org",
+      "https://bsc-dataseed4.binance.org",
+      "https://bsc-dataseed1.defibit.io",
+      "https://bsc-dataseed1.ninicoin.io"
+    ],
+    "nativeCurrency": {
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://bscscan.com"]
+  },
+  "polygon": {
+    "chainId": "0x89",
+    "chainName": "Polygon Mainnet",
+    "rpcUrls": [
+      "https://rpc-mainnet.maticvigil.com",
+      "https://polygon-rpc.com",
+      "https://matic-mainnet.chainstacklabs.com",
+      "https://rpc-mainnet.matic.network",
+      "https://polygon-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+    ],
+    "nativeCurrency": {
+      "name": "MATIC",
+      "symbol": "MATIC",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://polygonscan.com"]
+  },
+  "avax": {
+    "chainId": "0xA86A",
+    "chainName": "Avalanche C-Chain",
+    "rpcUrls": [
+      "https://api.avax.network/ext/bc/C/rpc",
+      "https://avax-mainnet.public.blastapi.io",
+      "https://avax-c-chain.publicnode.com",
+      "https://rpc.avax.network"
+    ],
+    "nativeCurrency": {
+      "name": "AVAX",
+      "symbol": "AVAX",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://snowtrace.io"]
+  },
+  "fantom": {
+    "chainId": "0xFA",
+    "chainName": "Fantom Opera",
+    "rpcUrls": [
+      "https://rpcapi.fantom.network",
+      "https://fantom-mainnet.public.blastapi.io",
+      "https://rpc.fantom.network",
+      "https://rpcapi.fantom.network"
+    ],
+    "nativeCurrency": {
+      "name": "FTM",
+      "symbol": "FTM",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://ftmscan.com"]
+  },
+  "moonbeam": {
+    "chainId": "0x507",
+    "chainName": "Moonbeam",
+    "rpcUrls": [
+      "https://rpc.api.moonbeam.network",
+      "https://moonbeam-mainnet.public.blastapi.io",
+      "https://moonbeam-rpc.bwarelabs.com",
+      "https://rpc.moonbeam.network"
+    ],
+    "nativeCurrency": {
+      "name": "GLMR",
+      "symbol": "GLMR",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://moonbeam.subscan.io"]
+  },
+  "harmony": {
+    "chainId": "0x63564C40",
+    "chainName": "Harmony Mainnet",
+    "rpcUrls": [
+      "https://api.harmony.one",
+      "https://harmony-mainnet.rpc.eu",
+      "https://rpc.s0.b.hmny.io",
+      "https://rpc.s0.t.hmny.io"
+    ],
+    "nativeCurrency": {
+      "name": "ONE",
+      "symbol": "ONE",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://explorer.harmony.one"]
+  },
+  "zkSync": {
+    "chainId": "0xE",
+    "chainName": "zkSync Era",
+    "rpcUrls": [
+      "https://zksync2-mainnet.zksync.io",
+      "https://mainnet.era.zksync.io",
+      "https://zksync-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://zksync.io/explorer"]
+  },
+  "base": {
+    "chainId": "0x4C",
+    "chainName": "Base Mainnet",
+    "rpcUrls": [
+      "https://mainnet.base.org",
+      "https://base-mainnet.public.blastapi.io",
+      "https://rpc.base.org",
+      "https://base-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://base.scan.io"]
+  },
+  "avalanche-fuji": {
+    "chainId": "0xA869",
+    "chainName": "Avalanche Fuji C-Chain",
+    "rpcUrls": [
+      "https://api.avax-test.network/ext/bc/C/rpc",
+      "https://avax-fuji.c-chain.publicnode.com"
+    ],
+    "nativeCurrency": {
+      "name": "AVAX",
+      "symbol": "AVAX",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://testnet.snowtrace.io"]
+  },
+  "celo": {
+    "chainId": "0xA4EC",
+    "chainName": "Celo",
+    "rpcUrls": [
+      "https://forno.celo.org",
+      "https://celo-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+    ],
+    "nativeCurrency": {
+      "name": "CELO",
+      "symbol": "CELO",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://explorer.celo.org"]
+  },
+  "boba": {
+    "chainId": "0xD",
+    "chainName": "Boba Network",
+    "rpcUrls": [
+      "https://mainnet.boba.network",
+      "https://boba-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://bobascan.com"]
+  },
+  "heco": {
+    "chainId": "0x80",
+    "chainName": "HECO Mainnet",
+    "rpcUrls": [
+      "https://http-mainnet.hecochain.com",
+      "https://heco-mainnet.rpc.thirdweb.com"
+    ],
+    "nativeCurrency": {
+      "name": "HT",
+      "symbol": "HT",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://scan.hecochain.com"]
+  },
+  "okc": {
+    "chainId": "0x43A",
+    "chainName": "OKC Mainnet",
+    "rpcUrls": [
+      "https://exchainrpc.okex.org",
+      "https://okc-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "OKT",
+      "symbol": "OKT",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://www.oklink.com/en/okc"]
+  },
+  "kava": {
+    "chainId": "0xE4",
+    "chainName": "Kava",
+    "rpcUrls": [
+      "https://evm.kava.io",
+      "https://kava-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "KAVA",
+      "symbol": "KAVA",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://explorer.kava.io"]
+  },
+  "telos": {
+    "chainId": "0x40C",
+    "chainName": "Telos EVM",
+    "rpcUrls": [
+      "https://mainnet.telos.net/evm",
+      "https://telos-mainnet.rpc.thirdweb.com"
+    ],
+    "nativeCurrency": {
+      "name": "TLOS",
+      "symbol": "TLOS",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://teloscan.io"]
+  },
+  "harmony-testnet": {
+    "chainId": "0x63564C41",
+    "chainName": "Harmony Testnet",
+    "rpcUrls": [
+      "https://api.s0.b.hmny.io",
+      "https://rpc.s0.t.hmny.io"
+    ],
+    "nativeCurrency": {
+      "name": "ONE",
+      "symbol": "ONE",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://explorer.s0.b.hmny.io"]
+  },
+  "bsc-testnet": {
+    "chainId": "0x61",
+    "chainName": "Binance Smart Chain Testnet",
+    "rpcUrls": [
+      "https://data-seed-prebsc-1-s1.binance.org:8545",
+      "https://data-seed-prebsc-2-s1.binance.org:8545"
+    ],
+    "nativeCurrency": {
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://testnet.bscscan.com"]
+  },
+  "polygon-mumbai": {
+    "chainId": "0x13881",
+    "chainName": "Polygon Mumbai",
+    "rpcUrls": [
+      "https://rpc-mumbai.maticvigil.com",
+      "https://matic-testnet-archive-rpc.bwarelabs.com",
+      "https://rpc-mumbai.matic.today"
+    ],
+    "nativeCurrency": {
+      "name": "MATIC",
+      "symbol": "MATIC",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://mumbai.polygonscan.com"]
+  },
+  "optimism-kovan": {
+    "chainId": "0x2A",
+    "chainName": "Optimism Kovan",
+    "rpcUrls": [
+      "https://kovan.optimism.io",
+      "https://optimism-kovan.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://kovan-optimistic.etherscan.io"]
+  },
+  "avax-c-chain-testnet": {
+    "chainId": "0xA869",
+    "chainName": "Avalanche Fuji C-Chain",
+    "rpcUrls": [
+      "https://api.avax-test.network/ext/bc/C/rpc",
+      "https://avax-fuji.c-chain.publicnode.com"
+    ],
+    "nativeCurrency": {
+      "name": "AVAX",
+      "symbol": "AVAX",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://testnet.snowtrace.io"]
+  },
+  "kava-testnet": {
+    "chainId": "0xE5",
+    "chainName": "Kava Testnet",
+    "rpcUrls": [
+      "https://evm.kava.io/testnet",
+      "https://kava-testnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "KAVA",
+      "symbol": "KAVA",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://testnet.explorer.kava.io"]
+  },
+  "zksync-testnet": {
+    "chainId": "0x1",
+    "chainName": "zkSync Testnet",
+    "rpcUrls": [
+      "https://zksync2-testnet.zksync.io",
+      "https://testnet.era.zksync.io"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://zksync.io/explorer"]
+  },
+  "boba-rinkeby": {
+    "chainId": "0x9",
+    "chainName": "Boba Rinkeby",
+    "rpcUrls": [
+      "https://rinkeby.boba.network",
+      "https://boba-rinkeby.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://rinkeby.bobascan.com"]
+  },
+  "telos-testnet": {
+    "chainId": "0x40D",
+    "chainName": "Telos Testnet",
+    "rpcUrls": [
+      "https://testnet.telos.net/evm",
+      "https://telos-testnet.rpc.thirdweb.com"
+    ],
+    "nativeCurrency": {
+      "name": "TLOS",
+      "symbol": "TLOS",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://testnet.teloscan.io"]
+  },
+  "xDai": {
+    "chainId": "0x64",
+    "chainName": "xDai",
+    "rpcUrls": [
+      "https://rpc.xdaichain.com",
+      "https://xdai-archive.rpc.thirdweb.com"
+    ],
+    "nativeCurrency": {
+      "name": "xDai",
+      "symbol": "xDai",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://blockscout.com/xdai/mainnet"]
+  },
+  "chainlink": {
+    "chainId": "0x1C",
+    "chainName": "Chainlink",
+    "rpcUrls": [
+      "https://rpc.chainlink.io",
+      "https://chainlink-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "LINK",
+      "symbol": "LINK",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://chainlinkscan.com"]
+  },
+  "celo-testnet": {
+    "chainId": "0xA4E7",
+    "chainName": "Celo Testnet",
+    "rpcUrls": [
+      "https://alfajores-forno.celo-testnet.org",
+      "https://celo-testnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+    ],
+    "nativeCurrency": {
+      "name": "CELO",
+      "symbol": "CELO",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://explorer.celo.org"]
+  },
+  "palm": {
+    "chainId": "0x2A5",
+    "chainName": "Palm",
+    "rpcUrls": [
+      "https://palm-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+      "https://palm-mainnet.rpc.thirdweb.com"
+    ],
+    "nativeCurrency": {
+      "name": "PALM",
+      "symbol": "PALM",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://explorer.palm.io"]
+  },
+  "metis": {
+    "chainId": "0xAFF",
+    "chainName": "Metis Andromeda",
+    "rpcUrls": [
+      "https://andromeda.metis.io/?owner=1088",
+      "https://metis-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "METIS",
+      "symbol": "METIS",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://andromeda-explorer.metis.io"]
+  },
+  "nova": {
+    "chainId": "0x9D1",
+    "chainName": "Nova Network",
+    "rpcUrls": [
+      "https://rpc.nova.network",
+      "https://nova-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "NOVA",
+      "symbol": "NOVA",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://nova-explorer.com"]
+  },
+  "shiden": {
+    "chainId": "0x7",
+    "chainName": "Shiden Network",
+    "rpcUrls": [
+      "https://rpc.shiden.astar.network",
+      "https://shiden-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "SDN",
+      "symbol": "SDN",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://shiden.astar.network"]
+  },
+  "cronos": {
+    "chainId": "0x19",
+    "chainName": "Cronos",
+    "rpcUrls": [
+      "https://evm.cronos.org",
+      "https://cronos-mainnet.rpc.thirdweb.com"
+    ],
+    "nativeCurrency": {
+      "name": "CRO",
+      "symbol": "CRO",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://cronoscan.com"]
+  },
+  "moonriver": {
+    "chainId": "0x505",
+    "chainName": "Moonriver",
+    "rpcUrls": [
+      "https://rpc.moonriver.network",
+      "https://moonriver-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "MOVR",
+      "symbol": "MOVR",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://moonriver.moonscan.io"]
+  },
+  "harmony-testnet": {
+    "chainId": "0x63564C41",
+    "chainName": "Harmony Testnet",
+    "rpcUrls": [
+      "https://api.s0.b.hmny.io",
+      "https://rpc.s0.t.hmny.io"
+    ],
+    "nativeCurrency": {
+      "name": "ONE",
+      "symbol": "ONE",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://explorer.s0.b.hmny.io"]
+  },
+  "evmos": {
+    "chainId": "0x19",
+    "chainName": "Evmos",
+    "rpcUrls": [
+      "https://evmos-mainnet.rpc.thirdweb.com",
+      "https://evmos-mainnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "EVMOS",
+      "symbol": "EVMOS",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://evmos.org"]
+  },
+  "sepolia": {
+    "chainId": "0xAA36A7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+      "https://rpc.sepolia.org"
+    ],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://sepolia.etherscan.io"]
+  },
+  "kava-testnet": {
+    "chainId": "0xE5",
+    "chainName": "Kava Testnet",
+    "rpcUrls": [
+      "https://evm.kava.io/testnet",
+      "https://kava-testnet.public.blastapi.io"
+    ],
+    "nativeCurrency": {
+      "name": "KAVA",
+      "symbol": "KAVA",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://testnet.explorer.kava.io"]
+  }
+}
